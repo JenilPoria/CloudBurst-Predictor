@@ -23,7 +23,7 @@ st.markdown(page,unsafe_allow_html=True)
 
 try:
     with open("cbmodel.pkl", "rb") as model_file:
-        model = pickle.load(model_file)
+        model: object = pickle.load(model_file)
 except FileNotFoundError:
     print("Error: The 'cbmodel.pkl' file was not found.")
 except Exception as e:
