@@ -1,6 +1,5 @@
 import  streamlit as st
 import pickle
-from PIL import Image
 
 page = """
 <style>
