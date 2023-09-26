@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc9221d0-c777-4b65-9f1c-3403586d0539" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CloudBurst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cbmodel.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weatherHistory.csv" afterDir="false" />
-    </list>
+    <list default="true" id="dc9221d0-c777-4b65-9f1c-3403586d0539" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +12,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2VwVF2mC4VWlH9TwvrMGhYl0XSS" />
   <component name="ProjectViewState">
