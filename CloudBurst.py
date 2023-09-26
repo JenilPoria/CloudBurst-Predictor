@@ -18,7 +18,18 @@ st.markdown(page,unsafe_allow_html=True)
 
 
 
-model = pickle.load(open("cbmodel.pkl","rb"))
+#model = pickle.load(open("cbmodel.pkl","rb"))
+
+try:
+    with open("cbmodel.pkl", "rb") as model_file:
+        model = pickle.load(model_file)
+except FileNotFoundError:
+    print("Error: The 'cbmodel.pkl' file was not found.")
+except Exception as e:
+    print("An error occurred while loading the model:", str(e))
+
+
+
 st.title("CloudBurst")
 
 
