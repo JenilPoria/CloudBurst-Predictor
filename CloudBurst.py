@@ -20,6 +20,7 @@ st.markdown(page,unsafe_allow_html=True)
 
 #model = pickle.load(open("cbmodel.pkl","rb"))
 
+
 try:
     with open("cbmodel.pkl", "rb") as model_file:
         model = pickle.load(model_file)
