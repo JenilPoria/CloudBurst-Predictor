@@ -17,7 +17,7 @@ st.markdown(page,unsafe_allow_html=True)
 
 
 
-#model = pickle.load(open("cbmodel.pkl","rb"))
+model = pickle.load(open("cbmodel.pkl","rb"))
 
 
 try:
@@ -34,7 +34,7 @@ st.title("CloudBurst")
 
 
 input_tem = st.number_input("Enter the Temperature" ,format="%.5f")
-input_atem  = st.number_input("Enter the Apparent Temperature",format="%.5f")
+input_atem = st.number_input("Enter the Apparent Temperature",format="%.5f")
 input_hum = st.number_input("Enter the Humidity")
 input_ws = st.number_input("Enter the Wind Speed",format="%.4f")
 input_wb = st.number_input("Enter the Wind Bearing")
@@ -43,7 +43,9 @@ input_pre = st.number_input("Enter the Presure")
 
 
 pred = [[input_tem,input_atem,input_hum,input_ws,input_wb,input_vis,input_pre]]
+
 result = model.predict(pred)
+
 if st.button("Predict"):
     if result == 0:
         st.header("Cloudburst")
