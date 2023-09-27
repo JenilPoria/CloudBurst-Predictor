@@ -20,9 +20,6 @@ st.markdown(page,unsafe_allow_html=True)
 model = pickle.load(open("cbmodel.pkl","rb"))
 
 
-model = pickle.load(open("cbmodel.pkl","rb"))
-
-
 
 
 st.title("CloudBurst")
