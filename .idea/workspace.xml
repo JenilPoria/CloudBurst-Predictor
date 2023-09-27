@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9221d0-c777-4b65-9f1c-3403586d0539" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CloudBurst.py" beforeDir="false" afterPath="$PROJECT_DIR$/CloudBurst.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Admin/PycharmProjects/IRIS Project",
+    "last_opened_file_path": "C:/Users/Admin/OneDrive/Documents/GitHub/CloudBurst-Predictor",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
